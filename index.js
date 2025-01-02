@@ -1,4 +1,12 @@
-fetch("https://www.keio.co.jp/_system/_unkou/unkouInformation.xml")
+fetch("https://www.keio.co.jp/_system/_unkou/unkouInformation.xml",{
+  method: "GET", // *GET, POST, PUT, DELETE, etc. 
+  mode: "cors", // no-cors, *cors, same-origin
+  cache: "default", // *default, no-cache, reload, force-cache, only-if-cached
+  credentials: "same-origin", // include, *same-origin, omit
+  headers: {
+    "Content-Type": "application/json",
+  },
+})
 .then(response => response.text())
 .then(data => { console.log(data) })
 .catch(error => { console.log('通信に失敗しました') })

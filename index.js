@@ -1,4 +1,7 @@
-const puppeteer = require('puppeteer');
+fetch("https://rooter.jp/")
+.then(response => response.text())
+.then(data => { console.log(data) })
+.catch(error => { console.log('通信に失敗しました') })
 
 
 

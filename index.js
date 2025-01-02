@@ -1,3 +1,9 @@
+const puppeteer = require('puppeteer');
+
+
+
+
+
 function WriteHTML(id, contents){
 	document.getElementById(id).innerHTML = contents;
 }

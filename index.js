@@ -1,4 +1,4 @@
-fetch("https://rooter.jp/")
+fetch("https://www.keio.co.jp/_system/_unkou/unkouInformation.xml")
 .then(response => response.text())
 .then(data => { console.log(data) })
 .catch(error => { console.log('通信に失敗しました') })

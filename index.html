@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>京王線 調布-西調布 時刻表</title>
+		<meta charset="UTF-8">
+		<link href="index.css" rel="stylesheet">
+	</head>
+	<body>
+		<script src="ko_18_19_json.js"></script>
+		<script src="index.js"></script>
+		<div class="header">
+			<div class="dir" >
+				<div>方 面</div>	
+				<div class="en">Direction</div>	
+			</div><div class="hr"></div>
+			<div class="time_h">
+				<div>通過時刻</div>
+				<div class="en">Passing time</div>
+			</div><div class="hr"></div>
+			<div class="type">
+				<div>種　別</div>
+				<div class="en">Train</div>
+			</div>	<div class="hr"></div>
+			<div class="dst" >
+				<div>行　先</div>
+				<div class="en">To</div>
+			</div>
+		</div>
+
+		<div class="column">
+			<img class="dir"  id="dir0" src="">
+			<div class="hr"></div>
+			<div class="time" id="time0">
+				<img class="num" id="hh0" src="">
+				<img class="colon" id="colon0" src="">
+				<img class="num" id="mm0" src="">
+			</div>
+			<div class="hr"></div>
+			<img class="type" id="type0" src="">
+			<div class="hr"></div>
+			<img class="dst"  id="dst0" src="">
+		</div>
+
+		<hr>
+
+		<div class="column">
+			<img class="dir"  id="dir1" src="">
+			<div class="hr"></div>
+			<div class="time" id="time1">
+				<img class="num" id="hh1" src="">
+				<img class="colon" id="colon1" src="">
+				<img class="num" id="mm1" src="">
+			</div>
+			<div class="hr"></div>
+			<img class="type" id="type1" src="">
+			<div class="hr"></div>
+			<img class="dst"  id="dst1" src="">
+		</div>
+
+		<hr>
+
+		<div class="column">
+			<img class="dir"  id="dir2" src="">
+			<div class="hr"></div>
+			<div class="time" id="time2">
+				<img class="num" id="hh2" src="">
+				<img class="colon" id="colon2" src="">
+				<img class="num" id="mm2" src="">
+			</div>
+			<div class="hr"></div>
+			<img class="type" id="type2" src="">
+			<div class="hr"></div>
+			<img class="dst"  id="dst2" src="">
+		</div>
+
+		<hr>
+
+		<div class="column">
+			<img class="dir"  id="dir3" src="">
+			<div class="hr"></div>
+			<div class="time" id="time3">
+				<img class="num" id="hh3" src="">
+				<img class="colon" id="colon3" src="">
+				<img class="num" id="mm3" src="">
+			</div>
+			<div class="hr"></div>
+			<img class="type" id="type3" src="">
+			<div class="hr"></div>
+			<img class="dst"  id="dst3" src="">
+		</div>
+
+		<hr>
+
+		<div class="column">
+			<img class="dir"  id="dir4" src="">
+			<div class="hr"></div>
+			<div class="time" id="time4">
+				<img class="num" id="hh4" src="">
+				<img class="colon" id="colon4" src="">
+				<img class="num" id="mm4" src="">
+			</div>
+			<div class="hr"></div>
+			<img class="type" id="type4" src="">
+			<div class="hr"></div>
+			<img class="dst"  id="dst4" src="">
+		</div>
+
+		<hr>
+
+		<div class="column" id="info"></div>
+		<div class="footer">
+			<div class="sign">made by F　※遅延情報、祝日、臨時ダイヤ等は反映しておりません。</div>
+			<div class="realtime" id="realtime"></div>
+			<button type="button" onclick="Click()">
+				<img id="button" src="./icon/0.SVG">
+			</button>
+		</div>		
+	</body>
+</html>

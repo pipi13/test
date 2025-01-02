@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	width: 100vw; height: 100vh;
+	background: #000;
+	color: #ffffff;
+	font-size: 9vh;
+}
+
+
+hr {
+	margin: 0;
+	border: 1px solid #fff;
+}
+
+
+.hr {
+	margin: 0 -1px 0 -1px;
+	width: 2px; height: 10vh;
+	background: #000;
+}
+
+
+.header {
+	height: 9vh;
+	background: #333;
+	font-size: 3.5vh;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.en {
+	font-size: 2vh;
+}
+
+.column {
+	margin:1vh 0 1vh 0;
+	width: 100vw; height: 12.5vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.dir {
+	width: 7vw;
+	text-align: center;
+}
+
+.time_h {
+	width: 16vw;
+	text-align: center;
+}
+
+.time {
+	width: 16vw;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.num {
+	width: 7vw;
+}
+
+.colon{
+	width: 2vw;
+}
+
+.type {
+	width: 21.75vw;
+	text-align: center;
+}
+
+
+.dst{
+	width: 50vw;
+	text-align: center;
+}
+
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	width: 100vw; height: 3vh;
+	font-size: 1vh;
+	display: flex;
+	align-items: flex-end;
+}
+
+.sign {
+	margin-left: 0.5vw;
+}
+
+.realtime {
+	margin-left: auto;
+	margin-right: 1vw;
+}
+
+
+button {
+	width: 3vh;
+	height: 3vh;
+	border: 0;
+	padding: 0;
+	background: #000;
+}
+
+
+#button {
+	width: 100%;
+	height: 100%;
+}

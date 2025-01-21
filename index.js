@@ -11,6 +11,18 @@ fetch("https://www.keio.co.jp/_system/_unkou/unkouInformation.xml",{
 .then(data => { console.log(data) })
 .catch(error => { console.log('通信に失敗しました') })
 
+fetch("https://www.navitime.co.jp/diagram/timetable?node=00008602&lineId=00000274&updown=1&trainType=%E6%9C%89%E6%96%99%E5%88%97%E8%BB%8A",{
+  method: "GET", // *GET, POST, PUT, DELETE, etc. 
+  mode: "cors", // no-cors, *cors, same-origin
+  cache: "default", // *default, no-cache, reload, force-cache, only-if-cached
+  credentials: "same-origin", // include, *same-origin, omit
+  headers: {
+    "Content-Type": "application/json",
+  },
+})
+.then(response => response.text())
+.then(data => { console.log(data) })
+.catch(error => { console.log('通信に失敗しました') })
 
 
 
